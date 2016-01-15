@@ -9,6 +9,7 @@ year    : 2011
 
 # Example
 ```{r}
+install.packages("devtools")
 devtools::install_github("rendrikson/gwDist")
 library(gwDist)
 data(mmspaces_3D)
