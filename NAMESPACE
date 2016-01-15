@@ -1,0 +1,3 @@
+useDynLib(gwDist)
+exportPattern("^[[:alpha:]]+")
+importFrom(Rcpp, evalCpp)
