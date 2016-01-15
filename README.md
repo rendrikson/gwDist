@@ -4,12 +4,8 @@ and the Metric Approach to Object Matching_. All functions are written in __R pr
 ```
 article : Gromov–Wasserstein Distances and the Metric Approach to Object Matching
 author  : Facundo Mémoli
+year    : 2011
 ```
-
-_functions_ folder has three subfolders:
-* __FLB__ - contains functions for estimating First Lower Bound (p 467 in artice)
-* __gw_dist__ - contains functions for estimating Gromov-Wassestein distance between metric-measure spaces (p 466)
-* __mmSpace__ - contains functions for obtaining metric-measure spaces from _72 animals_ database (p 469) 
 
 # Example
 ```{r}
