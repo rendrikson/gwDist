@@ -34,7 +34,7 @@ for(i in 1:length(mm_sub))
             # compute initial values using solve_FLB_Rglpk
             sol <- solve_FLB_Rglpk(X,Y,d_X,d_Y,mu_X,mu_Y)$solution
             # compute Gromov-Wasserstein distance 
-            gw_mat[i,j] <- gw_dist(sol, d_X, d_Y, mu_X, mu_Y)$optimum
+            gw_mat[i,j] <- gwDist(sol, d_X, d_Y, mu_X, mu_Y)$optimum
             gw_mat[j,i] <- gw_mat[i,j]
       }
 }

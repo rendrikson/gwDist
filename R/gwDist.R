@@ -8,7 +8,7 @@
 # U_{n+1} = argmin{U^T G U_n, over U w same constraints}
 
 # function for solving successive LOP's
-gw_dist <- function(initial_values,d_X,d_Y,mu_X,mu_Y, tol = 0.001, p = 1)
+gwDist <- function(initial_values,d_X,d_Y,mu_X,mu_Y, tol = 0.001, p = 1)
 {
       if (!require("pacman")) install.packages("pacman")
       pacman::p_load(Rglpk)
