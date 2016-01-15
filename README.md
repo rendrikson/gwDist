@@ -12,6 +12,7 @@ year    : 2011
 install.packages("devtools")
 devtools::install_github("rendrikson/gwDist")
 library(gwDist)
+# load metric measure spaces of 3D animal data into worksapce
 data(mmspaces_3D)
 # subset of metric measure spaces
 mm_sub <- mmspaces_3D[c(12:16,61:65)]
