@@ -13,7 +13,7 @@ _functions_ folder has three subfolders:
 
 # Example
 ```{r}
-devtools::install_github("rendrikson/gw_distance")
+devtools::install_github("rendrikson/gwDist")
 library(gwDist)
 data(mmspaces_3D)
 # subset of metric measure spaces
