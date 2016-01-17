@@ -10,6 +10,12 @@ year    : 2011
 # Example
 ```{r}
 install.packages("devtools")
+library(devtools)
+# you may need some extra tools (e.g., Xcode for Mac users, and 
+# Rtools for Windows users) to install gwDist.
+# After installing Rtools run
+find_rtools()
+# and then install packages gwDist
 devtools::install_github("rendrikson/gwDist")
 library(gwDist)
 # load metric measure spaces of 3D animal data into worksapce
