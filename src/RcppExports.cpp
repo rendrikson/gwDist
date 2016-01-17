@@ -17,16 +17,6 @@ BEGIN_RCPP
     return __result;
 END_RCPP
 }
-// rcpp_hello_world
-List rcpp_hello_world();
-RcppExport SEXP gwDist_rcpp_hello_world() {
-BEGIN_RCPP
-    Rcpp::RObject __result;
-    Rcpp::RNGScope __rngScope;
-    __result = Rcpp::wrap(rcpp_hello_world());
-    return __result;
-END_RCPP
-}
 // H_mu_typed
 double H_mu_typed(NumericMatrix mu, NumericMatrix d_X, NumericMatrix d_Y);
 RcppExport SEXP gwDist_H_mu_typed(SEXP muSEXP, SEXP d_XSEXP, SEXP d_YSEXP) {
