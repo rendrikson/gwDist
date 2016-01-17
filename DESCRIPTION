@@ -1,11 +1,12 @@
 Package: gwDist
 Type: Package
-Title: What the package does (short line)
+Title: Gromov-Wasserstein distance 
 Version: 1.0
 Date: 2016-01-15
-Author: Your Name
-Maintainer: Your Name <your@email.com>
-Description: More about what it does (maybe more than one line)
+Author: Reigo Hendrikson
+Maintainer: Reigo Hendrikson <reigo.hendrikson@gmail.com>
+Description: This package contains functions for computing on Gromov-Wasserstein
+type of distance between metric measure spaces. 
 License: GPL (>= 2)
 Imports: Rcpp (>= 0.12.1)
 LazyData: true

@@ -2,23 +2,27 @@
 \alias{gwDist()}
 \docType{package}
 \title{
-      Function for computing Gromov-Wasserstein distance between metric measure spaces
+      Function for computing Gromov-Wasserstein distance
 }
 \description{
       Function for computing Gromov-Wasserstein distance between metric measure spaces.
 }
 \usage{
-      gwDist(initial_values,d_X,d_Y,mu_X,mu_Y, tol = 0.001, p = 1)	
+gwDist(initial_values,d_X,d_Y,mu_X,mu_Y,tol = 0.001, p = 1)
 }
 
 \arguments{
-      initial_values    smth
-      d_X               smth
+      \item{initial_values}{initial values for solving initial LOP's}
+      \item{d_X}{metric of first metric measure space}
+      \item{d_Y}{metric of second metric measure space}
+      \item{mu_X}{probability measure of first metric measure space}
+      \item{mu_Y}{probability measure of second metric measure space}
+      \item{tol}{tolerance}
+      \item{p}{}
 }
 
 \examples{
-      \dontrun{
-            library(gwDist)
+library(gwDist)
 # load metric measure spaces of 3D animal data into worksapce
 data(mmspaces_3D)
 # subset of metric measure spaces
@@ -46,5 +50,5 @@ for(i in 1:length(mm_sub))
 
 rownames(gw_mat) <- colnames(gw_mat) <- names(mm_sub)
 heatmap(gw_mat)
-      }
+      
 }

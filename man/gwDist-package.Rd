@@ -13,7 +13,8 @@
 The DESCRIPTION file:
 \packageDESCRIPTION{gwDist}
 \packageIndices{gwDist}
-~~ An overview of how to use the package, including the most important functions ~~
+This package contains functions for computing on Gromov-Wasserstein
+type of distance between metric measure spaces. 
 }
 \author{
 \packageAuthor{gwDist}
