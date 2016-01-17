@@ -13,8 +13,6 @@
 The DESCRIPTION file:
 \packageDESCRIPTION{gwDist}
 \packageIndices{gwDist}
-This package contains functions for computing on Gromov-Wasserstein
-type of distance between metric measure spaces. 
 }
 \author{
 \packageAuthor{gwDist}
